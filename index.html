@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Yahtzee</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <table id='tableDie'>
+        <th>Ogen</th>
+
+        <th>Aantal</th>
+        </th>
+        <tr id="row 1"></tr>
+        <td>1</td>
+        <td class="dieAmount" id="count1"></td>
+        <tr id="row 2"></tr>
+        <td>2</td>
+        <td class="dieAmount" id="count2"></td>
+        <tr id="row 4"></tr>
+        <td>3</td>
+        <td class="dieAmount" id="count3"></td>
+        <tr id="row 4"></tr>
+        <td>4</td>
+        <td class="dieAmount" id="count4"></td>
+        <tr id="row 5"></tr>
+        <td>5</td>
+        <td class="dieAmount" id="count5"></td>
+        <tr id="row 6"></tr>
+        <td>6</td>
+        <td class="dieAmount" id="count6"></td>
+        <tr id="row 7"></tr>
+        <td>Score</td>
+        <td class="dieAmount" id="totalDieSum"></td>
+    </table>
+
+
+    <br>
+    <br>
+
+    <button id="button1">Gooi!</button>
+    <br>
+    <br>
+
+    <table id="tableDie2">
+        <tr id="row 8">
+            <td>Three of a kind</td>
+            <td class="scoreAmount" id="threeOfAKind"></td>
+        </tr>
+        <tr id="row 9">
+            <td>Four of a kind</td>
+            <td class="scoreAmount" id="fourOfAKind"></td>
+        </tr>
+        <tr id="row 10">
+            <td>Kleine straat</td>
+            <td class="scoreAmount" id="kleineStraat"></td>
+        </tr>
+        <tr id="row 11">
+            <td>Grote straat</td>
+            <td class="scoreAmount" id="groteStraat"></td>
+        </tr>
+        <tr id="row 12">
+            <td>Full House</td>
+            <td class="scoreAmount" id="fullHouse"></td>
+        </tr>
+        <tr id="row 13">
+            <td>Yahtzee</td>
+            <td class="scoreAmount" id="yahtzee"></td>
+        </tr>
+        <tr id="row 14">
+            <td>Paar</td>
+            <td id="pair"></td>
+        </tr>
+        <tr id="row 15">
+            <td>Totaal eerste deel</td>
+            <td id="totalDieSum2"></td>
+        </tr>
+        <tr id="row 16">
+            <td>Totaal tweede deel</td>
+            <td id="totalBottom"></td>
+        </tr>
+        <tr id="row 17">
+            <td>Totale score</td>
+            <td id="totalScore"></td>
+        </tr>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
